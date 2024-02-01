@@ -1,0 +1,18 @@
+.popup {
+    background-color: white;
+    width: 50%;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+}
+
+button {
+    border: none;
+    background-color: red;
+    border-radius: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+}

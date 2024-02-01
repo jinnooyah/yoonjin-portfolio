@@ -1,0 +1,28 @@
+p {
+    text-align: center;
+    margin: 0;
+    margin-top: 0rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    img:hover {
+      animation: cd-spin infinite 20s linear;
+      cursor: pointer;
+    }
+}
+
+@keyframes cd-spin {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

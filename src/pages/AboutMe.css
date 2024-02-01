@@ -1,0 +1,92 @@
+body {
+    background: radial-gradient(#C9B1BC 0%, #D6D6D6 80%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} 
+
+.container {
+    width: 700px;
+    padding-top: 14%;
+    margin: auto;
+}
+
+.tab {
+    height: 60px;
+    background-color: #8C98A3;
+}
+
+.window {
+    border-radius: 15px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 35% auto;
+}
+
+@font-face {
+    font-family: h1font;
+    src: url(../../public/fonts/Daydream.ttf);
+}
+
+h1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: h1font;
+    position: fixed;
+}
+
+@font-face {
+    font-family: h2font;
+    src: url(../../public/fonts/DOSMyungjo.ttf);
+}
+
+h2 {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: h2font;
+    font-size: 70px;
+    color: #C3B3BA;
+}
+
+@font-face {
+    font-family: pfont;
+    src: url(../../public/fonts/SUITE-Medium.ttf);
+}
+
+@font-face {
+    font-family: pfontbold;
+    src: url(../../public/fonts/SUITE-Heavy.ttf);
+}
+
+p {
+    font-family: pfont;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 22px;
+    color: #3c3c3c;
+}
+
+.image-container {
+    width: 30%; 
+    object-fit: cover; 
+    padding-left: 30px; 
+    padding-top: 20%;
+}
+
+th {
+    font-family: pfontbold; 
+    font-size: 1rem; 
+    padding: 0.5rem;
+}
+
+td {
+    font-family: pfont;
+    font-size: 1.25rem;
+}

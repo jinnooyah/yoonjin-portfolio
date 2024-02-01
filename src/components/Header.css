@@ -1,0 +1,9 @@
+.header-container {
+    display: inline;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+
+    font-family: pfont;
+    font-size: 1.5rem;
+}
