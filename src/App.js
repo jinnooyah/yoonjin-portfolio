@@ -3,13 +3,19 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
 import Samples from './pages/Samples';
+import Home from './pages/Home';
 
 export default function App() {
   return (
+
     <BrowserRouter>
       <Routes>
         <Route
-          path="/"
+          path="/home"
+          element={<Home />}
+        />
+        <Route
+          path="/about-me"
           element={<AboutMe />} // <-- passed as JSX
         />
         <Route

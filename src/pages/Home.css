@@ -1,0 +1,14 @@
+.gridContainer {
+    display: grid;
+    margin: auto;
+    margin-top: 2.5rem;
+
+    grid-template-columns: repeat(3, 30%);
+    width: 70%;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2.5rem;
+}
