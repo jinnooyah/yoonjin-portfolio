@@ -7,12 +7,11 @@ import Home from './pages/Home';
 
 export default function App() {
   return (
-
     <BrowserRouter>
       <Routes>
         <Route
           path="/home"
-          element={<Home />}
+          element={<Home />} // <-- passed as JSX
         />
         <Route
           path="/about-me"
