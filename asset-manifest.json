@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5150cd33.css",
-    "main.js": "/static/js/main.40362805.js",
-    "static/js/787.424c8fd7.chunk.js": "/static/js/787.424c8fd7.chunk.js",
-    "static/media/DOSMyungjo.ttf": "/static/media/DOSMyungjo.1479fe3c9111c38a3eac.ttf",
-    "static/media/cute.png": "/static/media/cute.9e781d956ddf02443f84.png",
-    "static/media/SUITE-Medium.ttf": "/static/media/SUITE-Medium.894354c30cd59558a42c.ttf",
-    "static/media/SUITE-Heavy.ttf": "/static/media/SUITE-Heavy.c10b746eed6f76597645.ttf",
-    "static/media/drama-cd.png": "/static/media/drama-cd.1b0f8b128321c741e5b9.png",
-    "static/media/Daydream.ttf": "/static/media/Daydream.84eda7c4245e10bffa4b.ttf",
-    "index.html": "/index.html",
-    "main.5150cd33.css.map": "/static/css/main.5150cd33.css.map",
-    "main.40362805.js.map": "/static/js/main.40362805.js.map",
-    "787.424c8fd7.chunk.js.map": "/static/js/787.424c8fd7.chunk.js.map"
+    "main.css": "/yoonjin-portfolio/static/css/main.bbacc170.css",
+    "main.js": "/yoonjin-portfolio/static/js/main.0190a9d3.js",
+    "static/js/787.424c8fd7.chunk.js": "/yoonjin-portfolio/static/js/787.424c8fd7.chunk.js",
+    "static/media/DOSMyungjo.ttf": "/yoonjin-portfolio/static/media/DOSMyungjo.1479fe3c9111c38a3eac.ttf",
+    "static/media/cute.png": "/yoonjin-portfolio/static/media/cute.9e781d956ddf02443f84.png",
+    "static/media/SUITE-Medium.ttf": "/yoonjin-portfolio/static/media/SUITE-Medium.894354c30cd59558a42c.ttf",
+    "static/media/SUITE-Heavy.ttf": "/yoonjin-portfolio/static/media/SUITE-Heavy.c10b746eed6f76597645.ttf",
+    "static/media/drama-cd.png": "/yoonjin-portfolio/static/media/drama-cd.5dc665b8c600ac416e23.png",
+    "static/media/Daydream.ttf": "/yoonjin-portfolio/static/media/Daydream.84eda7c4245e10bffa4b.ttf",
+    "index.html": "/yoonjin-portfolio/index.html",
+    "main.bbacc170.css.map": "/yoonjin-portfolio/static/css/main.bbacc170.css.map",
+    "main.0190a9d3.js.map": "/yoonjin-portfolio/static/js/main.0190a9d3.js.map",
+    "787.424c8fd7.chunk.js.map": "/yoonjin-portfolio/static/js/787.424c8fd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5150cd33.css",
-    "static/js/main.40362805.js"
+    "static/css/main.bbacc170.css",
+    "static/js/main.0190a9d3.js"
   ]
 }
