@@ -1,9 +1,34 @@
 .header-container {
     display: inline;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(3, 33%);
     text-align: center;
+    line-height: 3rem;
+
 
     font-family: pfont;
     font-size: 1.5rem;
+
+    background-color: #86767D;
+    border-radius: 25px;
+
+    margin: auto;
+    margin-top: 9%;
+    margin-bottom: 2%;
+
+    width: 42rem;
+    height: 3rem;
+
+    box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.2);
+}
+
+.clickable-text {
+    cursor: pointer;
+    color: #C3B3BA;
+    transition: color 0.3s ease; /* smooth transition for color change */
+}
+
+.clickable-text:hover {
+    color: rgb(255, 255, 255, 0.8);
+    font-family: pfontbold;
 }

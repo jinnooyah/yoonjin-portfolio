@@ -5,10 +5,6 @@ import "./Header.css";
 export default function Header() {
     const navigate = useNavigate();
 
-    const onHomeClick = useCallback(() => {
-        navigate("/")
-    }, [navigate]);
-
     const onAboutMeClick = useCallback(() => {
         navigate("/about-me")
     }, [navigate]);
@@ -16,12 +12,16 @@ export default function Header() {
     const onSamplesClick = useCallback(() => {
         navigate("/samples")
     }, [navigate]);
+
+    const onCommsClick = useCallback(() => {
+        navigate("/comms")
+    }, [navigate]);
     
     return (
         <div className="header-container">
-            <div onClick = {onHomeClick}>Home</div>
-            <div onClick = {onAboutMeClick}>About Me</div>
-            <div onClick = {onSamplesClick}>Samples</div>
+            <div className="clickable-text" onClick = {onAboutMeClick}>about me</div>
+            <div className="clickable-text" onClick = {onSamplesClick}>samples</div>
+            <div className="clickable-text" onClick = {onCommsClick}>comms</div>
         </div>
     )
 }
