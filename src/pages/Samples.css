@@ -1,14 +1,52 @@
+/* .page {
+    margin-top: 10rem;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.2);
+
+    width: 4rem;
+    height: 25rem;
+
+    margin: auto;
+    text-align: center;
+
+    padding-top: 1rem;
+}
+
 .gridContainer {
     display: grid;
     margin: auto;
-    margin-top: 2.5rem;
+    margin-top: 0;
 
-    grid-template-columns: repeat(3, 30%);
-    width: 70%;
-    padding: 5%;
+    grid-template-columns: repeat(3, 27%);
+    width: 42rem;
+    height: 25rem;
     align-items: center;
     justify-content: center;
+    align-content: center;
+} */
 
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 2.5rem;
+@font-face {
+    font-family: h1font;
+    src: url(../../public/fonts/Daydream.ttf);
+}
+
+h1 {
+    margin: auto;
+    font-size: 40px;
+    color: #C3B3BA;
+    font-family: h1font;
+    text-align: center;
+    position: relative;
+}
+
+p {
+    font-family: pfont;
+    text-align: center;
+    font-size: 22px;
+    color: #3c3c3c;
+}
+
+p1 {
+    color: white;
 }
