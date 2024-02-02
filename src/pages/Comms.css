@@ -1,0 +1,35 @@
+/* .page {
+    margin-top: 10rem;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.2);
+
+    width: 42rem;
+    height: 25rem;
+
+    margin: auto;
+}
+
+.gridContainer {
+    display: grid;
+    margin: auto;
+    margin-top: 0;
+
+    grid-template-columns: repeat(3, 27%);
+    width: 42rem;
+    height: 25rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+} */
+
+p {
+    font-family: pfont;
+    text-align: center;
+    font-size: 22px;
+    color: #3c3c3c;
+}
+
+p1 {
+    color: white;
+}
