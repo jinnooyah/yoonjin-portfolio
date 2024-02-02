@@ -11,7 +11,7 @@ export default function App() {
       <Routes>
         <Route
           path="/"
-          element={<AboutMe />} // <-- passed as JSX
+          exact element={<AboutMe />} // <-- passed as JSX
         />
         <Route
           path="/samples"
