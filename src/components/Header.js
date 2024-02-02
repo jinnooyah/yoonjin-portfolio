@@ -6,7 +6,7 @@ export default function Header() {
     const navigate = useNavigate();
 
     const onHomeClick = useCallback(() => {
-        navigate("/home")
+        navigate("/")
     }, [navigate]);
 
     const onAboutMeClick = useCallback(() => {
