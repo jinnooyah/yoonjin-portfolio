@@ -19,8 +19,8 @@ export default function PopupSample(props) {
             </div>
 
             <div>
-                <p style={{fontFamily: "pfontbold", marginTop: "1rem"}}>{props.title}</p>
-                <p>{props.artist}</p>
+                <p style={{fontFamily: "pfontbold", marginTop: "1rem", color: "white"}}>{props.title}</p>
+                <p style={{color: "white"}}>{props.artist}</p>
                 <p>{props.castN}</p>
             </div>
         </div>

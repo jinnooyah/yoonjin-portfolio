@@ -1,10 +1,12 @@
 .popup {
-    background-color: white;
-    width: 50%;
+    background-color: rgb(79, 63, 70, 0.8);
+    width: 35%;
+    height: 50%;
     position: fixed;
-    top: 25%;
-    left: 25%;
+    top: 20%;
+    left: 32%;
     right: 25%;
+    border-radius: 1.2rem;
 }
 
 button {
