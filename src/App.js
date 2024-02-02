@@ -7,7 +7,7 @@ import Comms from './pages/Comms';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/yoonjin-portfolio">
       <Routes>
         <Route
           path="/"
