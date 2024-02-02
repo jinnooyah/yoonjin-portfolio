@@ -1,5 +1,5 @@
-import "./Comms.css";
 import "./global.css";
+import "./Comms.css";
 import Header from "../components/Header";
 
 export default function Comms() {
