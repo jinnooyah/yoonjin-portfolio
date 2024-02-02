@@ -11,37 +11,34 @@ export default function AboutMe() {
 
   return (
     <div>
-      <h1>jinojaem</h1>
+      {/* <h1>jinojaem</h1> */}
       <Header />
       <body>
-        <div class="container">
-            <div class="box window">
-                <div>
-                  <div className="image-container">
-                    <img src={cute} style={{width: "12rem"}} alt="cat" />
-
-                    <img src={youtube} style={{padding: "1rem", width: "2rem"}} onClick={onYoutubeClick}/>
-                  </div>
+          <div class="window">
+              <div>
+                <div className="image-container">
+                  <img src={cute} style={{width: "12rem"}} alt="cat" />
+                  <img src={youtube} style={{padding: "1rem", width: "2rem"}} onClick={onYoutubeClick}/>
                 </div>
+              </div>
 
-                <div>
-                    <h2>about me!</h2>
-                    <table>
-                      <tr>
-                        <th style = {{width: "30%"}}>NAME</th>
-                        <th style = {{width: "40%"}}>DATE OF BIRTH</th>
-                        <th style = {{width: "30%"}}>PRONOUNS</th>
-                      </tr>
-                      <tr>
-                        <td>yoonjin</td>
-                        <td>sept 22, 2005</td>
-                        <td>she/her</td>
-                      </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </body>
+              <div>
+                  <h2>about me!</h2>
+                  <table>
+                    <tr>
+                      <th style = {{width: "30%"}}>NAME</th>
+                      <th style = {{width: "40%"}}>DATE OF BIRTH</th>
+                      <th style = {{width: "30%"}}>PRONOUNS</th>
+                    </tr>
+                    <tr>
+                      <td>yoonjin</td>
+                      <td>sept 22, 2005</td>
+                      <td>she/her</td>
+                    </tr>
+                  </table>
+              </div>
+          </div>
+      </body>
     </div>
   );
 }
