@@ -10,7 +10,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/about-me"
+          path="/"
           element={<AboutMe />} // <-- passed as JSX
         />
         <Route
