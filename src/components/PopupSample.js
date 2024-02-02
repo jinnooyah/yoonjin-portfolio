@@ -10,18 +10,18 @@ export default function PopupSample(props) {
 
     return (props.trigger) ? (
         <div className="popup">
-            <div style={{padding: "1rem", paddingLeft:"4rem"}}>
-                <button onClick={() => props.setTrigger(false)} style={{marginBottom: "1rem"}}>
-                    X
-                </button>
+            <div>
+                <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"#FF6767"}}></button>
+                <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"#FFF385"}}></button>
+                <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"#8BFF62"}}></button>
 
                 <YoutubeEmbed embedId ={props.sampleEmbed}></YoutubeEmbed>
             </div>
 
-            <div>
-                <p style={{fontFamily: "pfontbold", marginTop: "1rem", color: "white"}}>{props.title}</p>
-                <p style={{color: "white"}}>{props.artist}</p>
-                <p>{props.castN}</p>
+            <div className="grid">
+                <p class="pbold">{props.title}</p>
+                <p class="plightright">{props.castN}</p>
+                <p class="plightleft">{props.artist}</p>
             </div>
         </div>
     ) : "";
