@@ -22,9 +22,6 @@ export default function AboutMe() {
 
                     <img src={youtube} style={{padding: "1rem", width: "2rem"}} onClick={onYoutubeClick}/>
                   </div>
-
-                    {/* <p style="margin-left: 30px; margin-bottom: 0;"><a href="https://youtube.com/yoonjin">youtube</a></p>
-                    <p style="margin-left: 30px; margin-bottom: 0;"><a href="https://instagram.com/jinojaem">instagram</a></p> */}
                 </div>
 
                 <div>
