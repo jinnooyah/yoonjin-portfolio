@@ -5,17 +5,16 @@ import Header from "../components/Header";
 import MixItem from "../components/MixItem";
 import PopupSample from "../components/PopupSample";
 import "./global.css";
-import "./Samples.css";
+import "./Mixes.css";
 
 // import cd images
-import dramaCd from '../images/drama-cd.png';
-import offTheRecordCd from '../images/offtherecord-cd.png'
-import risingCd from '../images/rising-cd.png'
-import perfectNightCd from '../images/perfectnight-cd.png'
-import rewindCd from '../images/rewind-cd.png'
-import hypnosisCd from '../images/hypnosis-cd.png'
-import loveDiveCd from '../images/lovedive-cd.png'
-import tilWeMeetAgainCd from '../images/tilwemeetagain-cd.png'
+import dramaCd from '../images/cds/drama-cd.png';
+import offTheRecordCd from '../images/cds/offtherecord-cd.png'
+import risingCd from '../images/cds/rising-cd.png'
+import perfectNightCd from '../images/cds/perfectnight-cd.png'
+import rewindCd from '../images/cds/rewind-cd.png'
+import hypnosisCd from '../images/cds/hypnosis-cd.png'
+import loveDiveCd from '../images/cds/lovedive-cd.png'
 
 export default function Samples() {
     const [popupDrama, openDrama] = useState(false);
@@ -25,15 +24,14 @@ export default function Samples() {
     const [popupRewind, openRewind] = useState(false);
     const [popupHypnosis, openHypnosis] = useState(false);
     const [popupLoveDive, openLoveDive] = useState(false);
-    const [popupTilWeMeetAgain, openTilWeMeetAgain] = useState(false);
 
     return (
         <div>
             <Header />
             <div className = "page">
                 <h1>full mix</h1>
+                <p class="psubheading">includes time&tune!</p>
 
-                {/* cds */}
                 <div className="gridContainer">
                     <MixItem 
                     title = "drama" 
@@ -78,18 +76,9 @@ export default function Samples() {
                     setTrigger = {openLoveDive}/>
                 </div>
 
-                <h1>time&tune</h1>
-                <div className="gridContainer">
-                    <MixItem 
-                    title = "til we meet again" 
-                    cdImage = {tilWeMeetAgainCd} 
-                    trigger = {popupTilWeMeetAgain}
-                    setTrigger = {openTilWeMeetAgain}/>                    
-                </div>
 
                 {/* pop ups */}
                 <div>
-                    {/* full mix */}
                     <PopupSample 
                     title = "drama" 
                     cdImage = {dramaCd} 
@@ -150,17 +139,6 @@ export default function Samples() {
                     sampleEmbed = "dnZpVt9f0Bg?si=32S2m6_d4IplfGbo"
                     trigger = {popupLoveDive}
                     setTrigger = {openLoveDive}/>
-
-
-                    {/* time&time */}
-
-                    <PopupSample
-                    title = "til we meet again"
-                    cdImage = {tilWeMeetAgainCd}
-                    artist = "aespa"
-                    castN = "solo"
-                    trigger = {popupTilWeMeetAgain}
-                    setTrigger = {openTilWeMeetAgain}/>
                 </div>
             </div>
         </div>

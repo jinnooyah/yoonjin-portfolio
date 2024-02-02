@@ -2,7 +2,8 @@ import './App.css';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
-import Samples from './pages/Samples';
+import Vocals from './pages/Vocals.js';
+import Mixes from './pages/Mixes';
 import Comms from './pages/Comms';
 
 export default function App() {
@@ -14,8 +15,12 @@ export default function App() {
           exact element={<AboutMe />} // <-- passed as JSX
         />
         <Route
-          path="/samples"
-          element={<Samples />} // <-- passed as JSX
+          path="/vocals"
+          element={<Vocals />}
+        />
+        <Route
+          path="/mixes"
+          element={<Mixes />} // <-- passed as JSX
         />
         <Route
           path="/comms"

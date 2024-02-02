@@ -1,7 +1,7 @@
 .header-container {
     display: inline;
     display: grid;
-    grid-template-columns: repeat(3, 33%);
+    grid-template-columns: repeat(4, 25%);
     text-align: center;
     line-height: 3rem;
 
@@ -30,5 +30,10 @@
 
 .clickable-text:hover {
     color: rgb(255, 255, 255, 0.8);
+    font-family: pfontbold;
+}
+
+.clickable-text.selected {
+    color: white;
     font-family: pfontbold;
 }

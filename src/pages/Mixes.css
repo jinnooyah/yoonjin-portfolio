@@ -8,7 +8,7 @@
     src: url(../../public/fonts/Daydream.ttf);
 }
 
-h1 {
+/* h1 {
     margin: auto;
     font-size: 35px;
     color: #C3B3BA;
@@ -16,7 +16,7 @@ h1 {
     text-align: center;
     position: relative;
     padding-top: 3%;
-}
+} */
 
 p {
     font-family: pfont;
@@ -27,4 +27,9 @@ p {
 
 p1 {
     color: white;
+}
+
+.psubheading {
+    color: #C3B3BA;
+    font-family: pfontbold;
 }

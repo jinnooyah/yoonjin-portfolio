@@ -1,24 +1,45 @@
-import cute from '../cute.png';
-import youtube from '../youtube-logo.png';
 import './AboutMe.css';
 import Header from '../components/Header';
 import {useCallback} from "react";
+
+import cute from '../cute.png';
+import youtube from '../images/logos/youtube-logo.png';
+import instagram from '../images/logos/instagram-icon.png';
+import twitter from '../images/logos/twitter-logo.png'
+import tiktok from '../images/logos/tiktok-logo.png'
 
 export default function AboutMe() {
   const onYoutubeClick = useCallback(() => {
     window.open("https://youtube.com/yoonjin")
   }, []);
 
+  const onInstagramClick = useCallback(() => {
+    window.open("https://instagram.com/jinojaem")
+  }, []);
+
+  const onTwitterClick = useCallback(() => {
+    window.open("http://x.com/yujavu")
+  }, []);
+
+  const onTikTokClick = useCallback (() => {
+    window.open("https://tiktok.com/jinojaem")
+  }, []);
+
   return (
     <div>
-      {/* <h1>jinojaem</h1> */}
       <Header />
       <body>
           <div class="window">
               <div>
                 <div className="image-container">
                   <img src={cute} style={{width: "12rem"}} alt="cat" />
-                  <img src={youtube} style={{padding: "1rem", width: "2rem"}} onClick={onYoutubeClick}/>
+
+                  <div className="image-row">
+                    <img src={youtube} style={{width: "2rem"}} onClick={onYoutubeClick}/>
+                    <img src={instagram} style={{width: "2rem"}} onClick={onInstagramClick}/>
+                    <img src={twitter} style={{width: "2rem"}} onClick={onTwitterClick}/>
+                    <img src={tiktok} style={{width: "2rem"}} onClick={onTikTokClick}/>
+                  </div>
                 </div>
               </div>
 
