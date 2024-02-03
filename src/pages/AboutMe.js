@@ -35,10 +35,10 @@ export default function AboutMe() {
                   <img src={cute} style={{width: "12rem"}} alt="cat" />
 
                   <div className="image-row">
-                    <img src={youtube} style={{width: "2rem"}} onClick={onYoutubeClick}/>
-                    <img src={instagram} style={{width: "2rem"}} onClick={onInstagramClick}/>
-                    <img src={twitter} style={{width: "2rem"}} onClick={onTwitterClick}/>
-                    <img src={tiktok} style={{width: "2rem"}} onClick={onTikTokClick}/>
+                    <img src={youtube} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onYoutubeClick}/>
+                    <img src={instagram} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onInstagramClick}/>
+                    <img src={twitter} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onTwitterClick}/>
+                    <img src={tiktok} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onTikTokClick}/>
                   </div>
                 </div>
               </div>

@@ -22,12 +22,12 @@ body {
 }
 
 .image-row {
-    display: grid;
-    grid-template-columns: 80% auto;
-
+    margin-left: 6.3rem;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
+
+    cursor: pointer;
 }
 
 @font-face {
@@ -40,16 +40,6 @@ body {
     src: url(../../public/fonts/DOSMyungjo.ttf);
 }
 
-h2 {
-    margin-top: 30px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    text-align: left;
-    font-family: h1font;
-    font-size: 40px;
-    color: #C3B3BA;
-}
-
 @font-face {
     font-family: pfont;
     src: url(../../public/fonts/SUITE-Medium.ttf);
@@ -60,10 +50,19 @@ h2 {
     src: url(../../public/fonts/SUITE-Heavy.ttf);
 }
 
+h2 {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: h1font;
+    font-size: 40px;
+    color: #C3B3BA;
+}
+
 p {
     font-family: pfont;
     text-align: left;
-    margin-left: 15px;
     margin-top: 0;
     padding-top: 0;
     font-size: 22px;

@@ -7,7 +7,7 @@ export default function Comms() {
         <div>
             <Header />
             <div className="page">
-                <p>hi</p>
+                <h1>comms</h1>
             </div>
         </div>
     )

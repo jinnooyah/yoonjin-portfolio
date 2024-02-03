@@ -21,8 +21,9 @@
 p {
     font-family: pfont;
     text-align: center;
-    font-size: 22px;
+    font-size: 1.3rem;
     color: #3c3c3c;
+    text-align: center;
 }
 
 p1 {
@@ -32,4 +33,7 @@ p1 {
 .psubheading {
     color: #C3B3BA;
     font-family: pfontbold;
+    margin-top: -0.1rem;
+    font-size: 1.2rem;
+    text-align: center;
 }

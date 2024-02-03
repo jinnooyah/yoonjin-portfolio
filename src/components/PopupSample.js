@@ -20,8 +20,9 @@ export default function PopupSample(props) {
 
             <div className="grid">
                 <p class="pbold">{props.title}</p>
-                <p class="plightright">{props.castN}</p>
+                <p></p>
                 <p class="plightleft">{props.artist}</p>
+                <p class="plightright">{props.castN}</p>
             </div>
         </div>
     ) : "";

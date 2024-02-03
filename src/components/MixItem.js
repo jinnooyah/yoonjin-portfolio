@@ -10,8 +10,8 @@ export default function MixItem(props) {
 
     return (
         <div>
-            <img src={cdImage} onClick = {() => setTrigger(true)} />
-            <p style={{fontWeight: "bold", fontSize: "1.2rem", marginTop: "0.1rem"}}>{title}</p>
+            <img class="cd" src={cdImage} onClick = {() => setTrigger(true)} />
+            <p style={{fontWeight: "bold", fontSize: "1.2rem", marginTop: "0rem", textAlign: "center"}}>{title}</p>
         </div>
     )
 }
