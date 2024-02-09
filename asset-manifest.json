@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/yoonjin-portfolio/static/css/main.d8ca0ffb.css",
-    "main.js": "/yoonjin-portfolio/static/js/main.d671ef4c.js",
+    "main.css": "/yoonjin-portfolio/static/css/main.f3b5d32f.css",
+    "main.js": "/yoonjin-portfolio/static/js/main.b31227ed.js",
     "static/js/787.424c8fd7.chunk.js": "/yoonjin-portfolio/static/js/787.424c8fd7.chunk.js",
     "static/media/DOSMyungjo.ttf": "/yoonjin-portfolio/static/media/DOSMyungjo.1479fe3c9111c38a3eac.ttf",
     "static/media/cute.png": "/yoonjin-portfolio/static/media/cute.9e781d956ddf02443f84.png",
+    "static/media/instagram-icon.png": "/yoonjin-portfolio/static/media/instagram-icon.5da97fe27c11d3742a71.png",
     "static/media/SUITE-Medium.ttf": "/yoonjin-portfolio/static/media/SUITE-Medium.894354c30cd59558a42c.ttf",
     "static/media/SUITE-Heavy.ttf": "/yoonjin-portfolio/static/media/SUITE-Heavy.c10b746eed6f76597645.ttf",
     "static/media/perfectnight-cd.png": "/yoonjin-portfolio/static/media/perfectnight-cd.d540cc363b1570823019.png",
     "static/media/rewind-cd.png": "/yoonjin-portfolio/static/media/rewind-cd.ef83d0ede788af03ef0a.png",
-    "static/media/tilwemeetagain-cd.png": "/yoonjin-portfolio/static/media/tilwemeetagain-cd.d77edf8805dc8cd662e4.png",
     "static/media/lovedive-cd.png": "/yoonjin-portfolio/static/media/lovedive-cd.795b45bc2786185bfe69.png",
     "static/media/offtherecord-cd.png": "/yoonjin-portfolio/static/media/offtherecord-cd.5bbf5a6ab72a28262e3c.png",
     "static/media/rising-cd.png": "/yoonjin-portfolio/static/media/rising-cd.0055d63ee823eaec325a.png",
     "static/media/hypnosis-cd.png": "/yoonjin-portfolio/static/media/hypnosis-cd.7f7262729a9897d06e8e.png",
     "static/media/drama-cd.png": "/yoonjin-portfolio/static/media/drama-cd.5dc665b8c600ac416e23.png",
+    "static/media/tiktok-logo.png": "/yoonjin-portfolio/static/media/tiktok-logo.0f5af4a0fbe10cde67b2.png",
+    "static/media/twitter-logo.png": "/yoonjin-portfolio/static/media/twitter-logo.1dc47282cde389383976.png",
     "static/media/Daydream.ttf": "/yoonjin-portfolio/static/media/Daydream.84eda7c4245e10bffa4b.ttf",
     "index.html": "/yoonjin-portfolio/index.html",
-    "main.d8ca0ffb.css.map": "/yoonjin-portfolio/static/css/main.d8ca0ffb.css.map",
-    "main.d671ef4c.js.map": "/yoonjin-portfolio/static/js/main.d671ef4c.js.map",
+    "main.f3b5d32f.css.map": "/yoonjin-portfolio/static/css/main.f3b5d32f.css.map",
+    "main.b31227ed.js.map": "/yoonjin-portfolio/static/js/main.b31227ed.js.map",
     "787.424c8fd7.chunk.js.map": "/yoonjin-portfolio/static/js/787.424c8fd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8ca0ffb.css",
-    "static/js/main.d671ef4c.js"
+    "static/css/main.f3b5d32f.css",
+    "static/js/main.b31227ed.js"
   ]
 }
