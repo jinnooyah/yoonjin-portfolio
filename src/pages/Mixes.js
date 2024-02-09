@@ -31,7 +31,7 @@ export default function Samples() {
             <div className = "page">
                 <h1>full mix</h1>
                 <p class="psubheading">includes time&tune!</p>
-                <p class="psubheading" style={{marginTop:"-0.4rem", fontSize: "1rem", fontFamily: "pfont"}}>scoll for more samples!</p>
+                <p class="psubheading" style={{marginTop:"-0.4rem", fontSize: "1rem", fontFamily: "pfont"}}>scroll for more samples!</p>
 
                 <div className="gridContainer" style={{marginTop:"-0.5rem", marginBottom:"2rem"}}>
                     <MixItem 

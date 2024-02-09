@@ -1,3 +1,14 @@
+body {
+    background: radial-gradient(#C9B1BC 0%, #D6D6D6 80%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    padding: 0;
+    
+    /* overflow: hidden; */
+}
+
 .page {
     border-radius: 15px;
     background-color: white;
@@ -7,6 +18,8 @@
     height: 25rem;
 
     margin: auto;
+
+    overflow: auto;
 }
 
 .gridContainer {
