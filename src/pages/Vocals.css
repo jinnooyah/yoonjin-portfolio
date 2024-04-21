@@ -1,0 +1,89 @@
+.vocals {
+    display: grid;
+    grid-template-columns: 35% 60%;
+
+    margin-top: -0.2rem;
+
+    height: 100%;
+}
+
+.vocals > div:first-child {
+    background-color: #E1E5F0; 
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 8rem 8rem;
+
+    justify-items: center; 
+    align-items: center; 
+
+    margin: 0;
+    margin-left: -2rem;
+    padding-top: 1.4rem;
+
+    padding-left: 2.5rem;
+    padding-right: 0.6rem;
+}
+
+.album-wrapper {
+    position: relative;
+    height: 6rem;
+    width: 6rem; 
+} 
+
+.song-container {
+    max-height: 19rem;
+    overflow: scroll;
+    margin-top: 1.5rem;
+}
+
+.song-container::-webkit-scrollbar {
+    display: none;
+}
+
+.album {
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 12px;
+    background-color: #393B62;
+    margin: auto;
+    position: relative; 
+    z-index: 2;
+    cursor: pointer;
+}
+
+.highlight {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -43%); 
+    height: 8rem;
+    width: 6.45rem; 
+    border-radius: 8px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    z-index: 0;
+    pointer-events: none; 
+}
+
+.album:hover ~ .highlight {
+    background-color: rgba(170, 170, 170, 0.1);
+}
+
+.album.selected ~ .highlight {
+    background-color: rgb(170, 170, 170, 0.25);
+}
+
+.albumtext {
+    text-align: left;
+    font-size: 1.1rem;
+    color: #96A3D1;
+    margin: 0;
+    margin-top: -0.3rem;
+    margin-left: 0.3rem;
+    z-index: 3;
+    position: relative;
+    cursor: pointer;
+}

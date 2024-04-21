@@ -5,6 +5,7 @@ import AboutMe from './pages/AboutMe';
 import Vocals from './pages/Vocals.js';
 import Mixes from './pages/Mixes';
 import Comms from './pages/Comms';
+import VHarmGuides from './pages/VHarmGuides.js';
 
 export default function App() {
   return (
@@ -17,6 +18,10 @@ export default function App() {
         <Route
           path="/vocals"
           element={<Vocals />}
+        />
+        <Route
+          path="/harmguides"
+          element={<VHarmGuides />}
         />
         <Route
           path="/mixes"

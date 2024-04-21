@@ -1,0 +1,26 @@
+.vocal-grid {
+    display: grid;
+    grid-template-columns: 23% 42% 20%;
+    height: 3.8rem;
+
+    margin-left: -0.5rem; 
+
+    align-items: center;
+    justify-content: center;
+}
+
+.song-text {
+    text-align: left;
+    margin: -0.5rem;
+    margin-left: -1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.group-text {
+    text-align: left;
+    margin: -0.5rem;
+    margin-left: -1.5rem;
+    font-size: 1rem;
+    opacity: 0.5;
+}

@@ -1,0 +1,117 @@
+.top-bar {
+    border-bottom: 0.2rem solid #6579BF;
+    border-radius: 12px 12px 0 0;
+
+    background-color: #96A3D1; 
+
+    margin: auto;
+    height: 3.2rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    z-index: 9999;
+}
+
+.button-container {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.button {
+    background-color: transparent;
+    /* border: 0.2rem solid #393B62; */
+    border: none;
+    cursor: pointer;
+
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-left: 0.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 7px;
+
+    font-family: pfontbold; 
+    color: #393B62;
+    font-size: 2rem; 
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Lighten the background color on hover */
+}
+
+.header {
+    font-family: pfontbold; 
+    color: #393B62;
+    font-size: 2rem; 
+    margin-left: 0.65rem;
+}
+
+.button-line {
+    border: 0.1rem solid #393B62;
+
+    width: 50%;
+
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 1.9rem;
+}
+
+.button-square {
+    background-color: transparent;
+    border: 0.2rem solid #393B62;
+    border-top: 0.4rem solid #393B62;
+    border-radius: 2px;
+
+    width: 45%;
+    height: 35%;
+
+    margin: auto;
+}
+
+.button-x {
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.button-x::before,
+.button-x::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 12%;
+    background-color: #393B62;
+    top: 50%;
+    transform-origin: center;
+}
+
+.button-x::after {
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.button-x::before {
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+
+.tab-indicator {
+    position: absolute;
+    z-index: -1;
+    left: -0.2rem;
+    top: -0.2rem;
+
+    height: 3.4rem;
+    width: 14rem;
+    border-radius: 12px 12px 0 0;
+
+    background-color: white; 
+    border: 0.2rem solid #393B62;
+    border-bottom: 0;
+}

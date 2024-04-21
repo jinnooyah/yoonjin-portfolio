@@ -1,5 +1,6 @@
 import './AboutMe.css';
 import Header from '../components/Header';
+import TopBar from "../components/TopBar";
 import {useCallback} from "react";
 
 import cute from '../cute.png';
@@ -28,23 +29,19 @@ export default function AboutMe() {
   return (
     <div>
       <Header />
-      <body>
-          <div class="window">
+
+        <div class="page">
+          <TopBar />
+
+            <div className="about-container">
               <div>
                 <div className="image-container">
-                  <img src={cute} style={{width: "12rem"}} alt="cat" />
+                  <img src={cute} style={{width: "10rem", height: "10rem"}} alt="cat" />
 
-                  <div className="image-row">
-                    <img src={youtube} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onYoutubeClick}/>
-                    <img src={instagram} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onInstagramClick}/>
-                    <img src={twitter} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onTwitterClick}/>
-                    <img src={tiktok} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onTikTokClick}/>
-                  </div>
                 </div>
               </div>
 
-              <div>
-                  <h2>about me!</h2>
+              <div style={{marginTop: "2.5rem"}}>
                   <table>
                     <tr>
                       <th style = {{width: "30%"}}>NAME</th>
@@ -58,8 +55,18 @@ export default function AboutMe() {
                     </tr>
                   </table>
               </div>
-          </div>
-      </body>
+
+              <div>
+                <div className="image-row">
+                      <img src={youtube} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onYoutubeClick}/>
+                      <img src={instagram} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onInstagramClick}/>
+                      <img src={twitter} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onTwitterClick}/>
+                      <img src={tiktok} style={{width: "2rem", marginRight: "0.8rem"}} onClick={onTikTokClick}/>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
   );
 }

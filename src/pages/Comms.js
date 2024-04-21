@@ -1,13 +1,12 @@
-import "./global.css";
-import "./Comms.css";
 import Header from "../components/Header";
+import TopBar from "../components/TopBar";
 
 export default function Comms() {
     return (
         <div>
             <Header />
             <div className="page">
-                <h1>comms</h1>
+                <TopBar />
             </div>
         </div>
     )

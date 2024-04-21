@@ -1,4 +1,4 @@
-import "./Vocals.css";
+import "./VHarmGuides.css";
 import React, { useState } from 'react';
 import Header from "../components/Header";
 import TopBar from "../components/TopBar";
@@ -7,7 +7,7 @@ import PopupSample from "../components/PopupSample";
 import cdImages from "../components/cdImages";
 import { popupKeys } from "../components/popupKeys";
 
-export default function Vocals() {
+export default function VHarmGuides() {
     const subpages = ['harmguides'];
     
     const initialPopupsState = popupKeys.reduce((acc, key) => {

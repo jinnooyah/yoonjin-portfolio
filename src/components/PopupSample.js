@@ -1,28 +1,34 @@
 import React from "react";
-import { useCallback } from "react";
+// import { useCallback } from "react";
 import './PopupSample.css';
 import YoutubeEmbed from "./YoutubeEmbed";
 
+import videoComingSoon from '../images/videoComingSoon.png';
+
 export default function PopupSample(props) {
-    const onSampleLinkClick = useCallback (() => {
-        window.open(props.sampleLink);
-    });
-
     return (props.trigger) ? (
-        <div className="popup">
-            <div>
-                <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"#FF6767"}}></button>
-                <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"#FFF385"}}></button>
-                <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"#8BFF62"}}></button>
+        <div>
+            <div className="popup">
+                <div className="popup-top">
+                    <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"#F47F7F", marginLeft: "0.8rem"}}></button>
+                    <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"#EAE191"}}></button>
+                    <button onClick={() => props.setTrigger(false)} style={{backgroundColor:"#9ADD83"}}></button>
 
-                <YoutubeEmbed embedId ={props.sampleEmbed}></YoutubeEmbed>
-            </div>
+                    <p style={{color: "white", marginTop:"-1.2rem", fontSize:"1.1rem"}}>{props.date}</p>
+                </div>
 
-            <div className="grid">
-                <p class="pbold">{props.title}</p>
-                <p></p>
-                <p class="plightleft">{props.artist}</p>
-                <p class="plightright">{props.castN}</p>
+                <div>
+                    {props.sampleEmbed !== "" ? (
+                        <YoutubeEmbed embedId={props.sampleEmbed}></YoutubeEmbed>
+                    ) : (
+                        <img src={videoComingSoon} 
+                        alt="video coming soon!" 
+                        style={{width: "25rem", 
+                        height: "14.06rem", 
+                        marginTop: "0rem",
+                        verticalAlign: "top"}}/>
+                    )}
+                </div>
             </div>
         </div>
     ) : "";

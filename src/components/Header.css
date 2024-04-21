@@ -5,35 +5,50 @@
     text-align: center;
     line-height: 3rem;
 
-
     font-family: pfont;
-    font-size: 1.5rem;
-
-    background-color: #86767D;
-    border-radius: 25px;
+    font-size: 1.2rem;
 
     margin: auto;
-    margin-top: 9%;
-    margin-bottom: 2%;
+    margin-top: 4.3%;
+    margin-bottom: 0.2%;
 
     width: 42rem;
     height: 3rem;
-
-    box-shadow: 2px 4px 12px 2px rgba(0, 0, 0, 0.2);
 }
 
-.clickable-text {
+.header-folder {
+    display: inline;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+
+    margin: auto;
+    margin-top: 6.5%;
+    margin-bottom: 0%;
+
+    width: 42rem;
+    height: 1rem;
+
     cursor: pointer;
-    color: #C3B3BA;
-    transition: color 0.3s ease; /* smooth transition for color change */
+}
+
+/* .header-folder img:hover {
+    filter: brightness(1.5); 
+} */
+
+.clickable-text {
+    color: white;
+    transition: color 0.3s ease;
+    text-shadow: 1px 1px 3px rgb(57, 59, 98, 0.4);
+    font-family: pfontbold;
+    cursor: pointer;
 }
 
 .clickable-text:hover {
-    color: rgb(255, 255, 255, 0.8);
+    color: rgb(57, 59, 98, 0.6);
     font-family: pfontbold;
 }
 
 .clickable-text.selected {
-    color: white;
+    color: #393B62;
     font-family: pfontbold;
 }
