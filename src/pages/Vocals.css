@@ -1,6 +1,6 @@
 .vocals {
     display: grid;
-    grid-template-columns: 35% 60%;
+    grid-template-columns: 35% 65%;
 
     margin-top: -0.2rem;
 
@@ -8,7 +8,10 @@
 }
 
 .vocals > div:first-child {
-    background-color: #E1E5F0; 
+    margin-top: -0.4rem;
+    background-color: #E4E3ED; 
+    height: 22.3rem;
+    border-radius: 0 0 0 12px;
 }
 
 .album-grid {
@@ -36,18 +39,25 @@
 .song-container {
     max-height: 19rem;
     overflow: scroll;
-    margin-top: 1.5rem;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
 }
 
 .song-container::-webkit-scrollbar {
-    display: none;
+    width: 7px;
+    height: 100%;
+}
+
+.song-container::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .album {
     height: 5.5rem;
     width: 5.5rem;
     border-radius: 12px;
-    background-color: #393B62;
+    background-color: #534C84;
     margin: auto;
     position: relative; 
     z-index: 2;
@@ -69,21 +79,33 @@
 }
 
 .album:hover ~ .highlight {
-    background-color: rgba(170, 170, 170, 0.1);
+    background-color: rgba(170, 170, 170, 0.15);
 }
 
 .album.selected ~ .highlight {
-    background-color: rgb(170, 170, 170, 0.25);
+    background-color: rgb(170, 170, 170, 0.3);
 }
 
 .albumtext {
     text-align: left;
     font-size: 1.1rem;
-    color: #96A3D1;
+    color: #8982BC;
     margin: 0;
     margin-top: -0.3rem;
     margin-left: 0.3rem;
     z-index: 3;
     position: relative;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .vocals > div:first-child {
+        /* height: calc(60rem - 3.3rem); */
+        height: 57.1rem;
+        border-radius: 0 0 0 12px;
+    }
+
+    .song-container {
+        max-height: 60rem;
+    }
 }

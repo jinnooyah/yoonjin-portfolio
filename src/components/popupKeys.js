@@ -5,5 +5,9 @@ export const popupKeys = [
     "popupPerfectNight", "popupLoveDive", "popupFireInTheBelly", "popupSmart",
     "popupDrama2", "popupMyWorld", "popupBatterUp", "popupGirlsCapitalism",
     "popupGodSeesAll", "popupSilentBoardingGate", "popupBattleOfButtler",
-    "popupBlackOut", "popupnewjeans",
+    "popupBlackOut", "popupNewJeans", "popupIfICanStopOneHeartFromBreaking", "popupSurf",
+    "popupJackpotSadGirl", "popupEmberToSolar", "popupLetMeBattle", "popupMeltInsideMyPocket",
+    "popupBeClassic", "popupMarionette", "popupGabriela", "popupMesmerizer", "popupBirth",
+    "popupSongBird", "popupBeClassic", "popupMonitoring", "popupPerfume", "popupAccendio",
+    "popupHalazia", "popupMoonPride", "popupIdSmile", 
 ];

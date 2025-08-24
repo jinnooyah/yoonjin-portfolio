@@ -28,3 +28,21 @@ p {
     margin: 0;
     margin-top: 0rem;
 }
+
+/* .song-text {
+    text-align: left;
+    margin: -0.2rem;
+    margin-left: -1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
+} */
+
+.type-text {
+    text-align: center;
+    margin: -0.5rem;
+    /* margin-left: -1.5rem; */
+    font-size: 1rem;
+    opacity: 0.5;
+}

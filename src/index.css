@@ -1,5 +1,5 @@
 body {
-  background: radial-gradient(#b6bfdd 0%, #D6D6D6 80%);
+  background: radial-gradient(#AEAEC2 0%, #e8e8e8 100%);
   background-attachment: fixed;
   background-repeat: no-repeat;
 
@@ -10,7 +10,7 @@ body {
 .page {
   border-radius: 15px;
 
-  border: 0.2rem solid #393B62; 
+  border: 0.2rem solid #695C99; 
 
   background-color: rgb(255, 255, 255);
   box-shadow: 2px 2px 12px 0px rgb(57, 59, 98, 0.5);
@@ -19,7 +19,6 @@ body {
   height: 25.2rem;
 
   margin: auto;
-  overflow: hidden;
 }
 
 .page::-webkit-scrollbar {
@@ -46,6 +45,25 @@ body {
   justify-content: center;
   align-content: center;
 }
+
+.mixesContainer {
+  height: 56.5rem;
+  padding: 0;
+  overflow: scroll;
+  max-height: 21.7rem;
+  overflow-y:scroll;
+}
+
+.mixesContainer::-webkit-scrollbar {
+  width: 7px;
+  height: 100%;
+}
+
+.mixesContainer::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
 
 .gridHeader {
   display: grid;
@@ -113,11 +131,11 @@ p {
   margin-top: 0;
   padding-top: 0;
   font-size: 22px;
-  color: #96A3D1;
+  color: #8380A7;
 }
 
 .psubheading {
-  color: #96A3D1;
+  color: #8380A7;
   font-family: pfontbold;
   margin-top: -0.4rem;
   font-size: 1.2rem;
@@ -135,17 +153,31 @@ th {
   font-family: pfontbold; 
   font-size: 1rem; 
   padding: 0.5rem;
-  color: #96A3D1;
+  color: #8982BC;
 }
 
 td {
   font-family: pfont;
   font-size: 1.25rem;
-  color: #96A3D1;
+  color: #8982BC;
 }
 
 hr {
-  border: 0.08rem solid #96A3D1;
+  border: 0.08rem solid #8982BC;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+@media (max-width: 600px) {
+    .page {
+        position: fixed;
+        height: 60rem;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+
+    .mixesContainer {
+      max-height: 60rem;
+    }
 }

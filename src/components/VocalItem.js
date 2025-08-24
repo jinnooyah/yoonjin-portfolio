@@ -29,7 +29,7 @@ export default function VocalItem(props) {
             </div>
 
             <div>
-                <p className="group-text">{type}</p>
+                <p className="group-text" style={{marginBottom:"0.2rem"}}>{type}</p>
                 <p className="group-text">{gender}</p>
             </div>
         </div>

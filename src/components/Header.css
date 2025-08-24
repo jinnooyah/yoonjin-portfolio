@@ -31,10 +31,6 @@
     cursor: pointer;
 }
 
-/* .header-folder img:hover {
-    filter: brightness(1.5); 
-} */
-
 .clickable-text {
     color: white;
     transition: color 0.3s ease;
@@ -44,11 +40,11 @@
 }
 
 .clickable-text:hover {
-    color: rgb(57, 59, 98, 0.6);
+    color: #544c849f;
     font-family: pfontbold;
 }
 
 .clickable-text.selected {
-    color: #393B62;
+    color: #534C84;
     font-family: pfontbold;
 }

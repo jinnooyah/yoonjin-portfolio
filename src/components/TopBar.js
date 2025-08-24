@@ -25,7 +25,7 @@ const TopBar = ({ subpages = [], selectedSubpage }) => {
 
     const getColour = (currentPage) => {
         if (location.pathname === '/harmguides') {
-            return '#393B62'
+            return '#534C84'
         }
         else {
             return 'white'
@@ -37,7 +37,7 @@ const TopBar = ({ subpages = [], selectedSubpage }) => {
             return 'white'
         }
         else {
-            return '#393B62'
+            return '#534C84'
         }
     };
 
@@ -77,7 +77,7 @@ const TopBar = ({ subpages = [], selectedSubpage }) => {
 
 
             {currentPage === '/vocals' && (
-                <div className="tab-indicator" style={{backgroundColor: "#E1E5F0"}}> </div>
+                <div className="tab-indicator" style={{backgroundColor: "#E4E3ED"}}> </div>
             )}
 
             {currentPage === '/harmguides' && (

@@ -1,5 +1,5 @@
 .about-container {
-    grid-template-columns: 35% repeat(2, auto);
+    grid-template-columns: 40% 1fr;
     display: grid;
 
     padding-top: 3rem;
@@ -11,11 +11,28 @@
 }
 
 .about-container > div:first-child {
-    background-color: rgb(182, 191, 221, 0.4); 
+    /* background-color: #E4E3ED;  */
+    height: 22.2rem;
+    border-radius: 0 0 0 12px;
+}
+
+.highlight-container {
+    background-color: #B0ABD3;
+    border-radius: 5px;
+}
+
+.signature-line { 
+    width: 78%; 
+    height: 2px; 
+    background: #B0ABD3;
+    margin-top: 1.7rem;
+    margin-left: 0.5rem;
+    border-radius: 3px;
 }
 
 .image-container {
-    width: 30%; 
+    margin-left: -2rem;
+    width: 100%; 
     object-fit: cover; 
     padding-top: 1.3rem;
     align-content: center;
@@ -24,10 +41,23 @@
 
 .image-row {
     padding-top: 1rem;
-    /* margin-left: 6.3rem; */
+    
     display: flex;
     align-items: center;
     justify-content: center;
 
     cursor: pointer;
+
+    gap: 0rem;
+}
+
+a {
+    color: #B0ABD3;
+}
+
+@media (max-width: 600px) {
+    .about-container > div:first-child {
+        height: 57rem;
+        border-radius: 0 0 0 12px;
+    }
 }

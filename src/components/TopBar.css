@@ -1,8 +1,8 @@
 .top-bar {
-    border-bottom: 0.2rem solid #6579BF;
+    border-bottom: 0.2rem solid #8982BC;
     border-radius: 12px 12px 0 0;
 
-    background-color: #96A3D1; 
+    background-color: #B0ABD3; 
 
     margin: auto;
     height: 3.2rem;
@@ -37,7 +37,7 @@
     border-radius: 7px;
 
     font-family: pfontbold; 
-    color: #393B62;
+    color: #534C84;
     font-size: 2rem; 
     text-align: center;
 }
@@ -48,13 +48,13 @@
 
 .header {
     font-family: pfontbold; 
-    color: #393B62;
+    color: #534C84;
     font-size: 2rem; 
     margin-left: 0.65rem;
 }
 
 .button-line {
-    border: 0.1rem solid #393B62;
+    border: 0.1rem solid #534C84;
 
     width: 50%;
 
@@ -65,8 +65,8 @@
 
 .button-square {
     background-color: transparent;
-    border: 0.2rem solid #393B62;
-    border-top: 0.4rem solid #393B62;
+    border: 0.2rem solid #534C84;
+    border-top: 0.4rem solid #534C84;
     border-radius: 2px;
 
     width: 45%;
@@ -88,7 +88,7 @@
     position: absolute;
     width: 90%;
     height: 12%;
-    background-color: #393B62;
+    background-color: #534C84;
     top: 50%;
     transform-origin: center;
 }
@@ -112,6 +112,12 @@
     border-radius: 12px 12px 0 0;
 
     background-color: white; 
-    border: 0.2rem solid #393B62;
+    border: 0.2rem solid #534C84;
     border-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .top-bar {
+        position: fixed;
+    }
 }
